@@ -1,0 +1,25 @@
+// src/pages/HomePage.jsx
+import Layout from "../components/Layout";
+import Hero from "../components/Hero";
+import Treatments from "../components/Treatments";
+// import About from "../components/About";
+import AboutHome from "../components/AboutHome";
+import Gallery from "../components/Gallery";
+import Contact from "../components/Contact"
+import ExclusiveServices from '../components/ExclusiveServices'
+import MachinesSection from '../components/MachinesSection'
+
+export default function HomePage() {
+ 
+ return (
+   <Layout>
+   <Hero/>
+      <AboutHome/>
+   <Treatments/>
+<ExclusiveServices/>
+ <MachinesSection/>
+   {/* <Contact/> */}
+   </Layout>
+  
+  );
+}
