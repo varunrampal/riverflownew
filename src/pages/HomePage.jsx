@@ -6,20 +6,24 @@ import Treatments from "../components/Treatments";
 import AboutHome from "../components/AboutHome";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact"
-import ExclusiveServices from '../components/ExclusiveServices'
-import MachinesSection from '../components/MachinesSection'
+import ExclusiveServices from '../components/ExclusiveServices';
+import MachinesSection from '../components/MachinesSection';
+import Products from "../components/Products";
+import Consultation from "../components/Consultation";
 
 export default function HomePage() {
- 
- return (
-   <Layout>
-   <Hero/>
-      <AboutHome/>
-   <Treatments/>
-<ExclusiveServices/>
- <MachinesSection/>
-   {/* <Contact/> */}
-   </Layout>
-  
-  );
+
+   return (
+      <Layout>
+         <Hero />
+         <AboutHome />
+         <Treatments />
+         <ExclusiveServices />
+         {/* <MachinesSection /> */}
+         <Products />
+         <Consultation/>
+         {/* <Contact/> */}
+      </Layout>
+
+   );
 }

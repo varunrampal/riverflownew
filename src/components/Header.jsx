@@ -38,25 +38,28 @@ export default function Header() {
           </button>
 
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <a href="#hero" className="hover:text-emerald-500">
+            <a href="#hero" className="hover:text-[#692767] font-bold text-[#692767]">
               Home
             </a>
-            <a href="#treatments" className="hover:text-emerald-500">
+            <a href="#treatments" className="hover:text-[#692767] font-bold text-[#692767]">
               Treatments
             </a>
-            <a href="#about" className="hover:text-emerald-500">
+            <a href="#about" className="hover:text-[#692767] text-[#692767] font-bold">
               About
             </a>
-            <a href="#gallery" className="hover:text-emerald-500">
-              Gallery
+            <a href="#team" className="hover:text-[#692767] text-[#692767] font-bold">
+              Our Team
             </a>
-            <a href="#contact" className="hover:text-emerald-500">
+              <a href="#faqs" className="hover:text-[#692767] text-[#692767] font-bold">
+              FAQS
+            </a>
+            <a href="#contact" className="hover:text-[#692767] text-[#692767] font-bold">
               Contact
             </a>
           </nav>
           <a
-            href="#contact"
-            className="hidden lg:inline-flex bg-[#692767] hover:bg-[#582157] text-white px-5 py-2 rounded-full text-sm font-semibold transition"
+            href="https://app.squareup.com/appointments/book/9qze62967coq3v/L0BCN9T6Y4JAQ/start"
+            target="_blank"className="hidden lg:inline-flex bg-[#692767] hover:bg-[#582157] text-white px-5 py-2 rounded-full text-sm font-semibold transition"
           >
             Book Now
           </a>
@@ -68,35 +71,35 @@ export default function Header() {
             <a
               href="#hero"
               onClick={() => setOpen(false)}
-              className="block py-1"
+              className="block py-1 text-[#692767] font-bold"
             >
               Home
             </a>
             <a
               href="#treatments"
               onClick={() => setOpen(false)}
-              className="block py-1"
+              className="block py-1 text-[#692767] font-bold"
             >
               Treatments
             </a>
             <a
               href="#about"
               onClick={() => setOpen(false)}
-              className="block py-1"
+              className="block py-1 text-[#692767] font-bold"
             >
               About
             </a>
             <a
-              href="#gallery"
+              href="#team"
               onClick={() => setOpen(false)}
-              className="block py-1"
+              className="block py-1 text-[#692767] font-bold"
             >
-              Gallery
+              Our Team
             </a>
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="block py-1"
+              className="block py-1 text-[#692767] font-bold"
             >
               Contact
             </a>

@@ -76,14 +76,14 @@ export default function ExclusiveServices() {
         </div>
 
         <h3 className="text-lg font-semibold mb-3">
-          Uptown Signature Glass Facial
+          Hydra Facial
         </h3>
         <p className="text-sm text-slate-100 flex-1">
-          Experience our signature glass facial, customized to your skin’s needs, providing a
+          Experience our signature hydra facial, customized to your skin’s needs, providing a
           luminous, refreshed appearance.
         </p>
         <a
-          href="/uptown-signature-glass-facial"
+          href="#"
           className="inline-flex items-center gap-2 text-sm font-semibold mt-5 text-[#fffff] hover:text-[#fffff]"
         >
           Read More
@@ -104,7 +104,7 @@ export default function ExclusiveServices() {
           <div className="absolute inset-0 bg-[#c7a3e5] mix-blend-color opacity-90 pointer-events-none"></div>
         </div>
 
-        <h3 className="text-lg font-semibold mb-3">The Hydr-Oxy Facial</h3>
+        <h3 className="text-lg font-semibold mb-3">OxyGeneo Facial</h3>
         <p className="text-sm text-slate-100 flex-1">
           Replenish and hydrate with oxygen infusion and nourishing serums for soft, glowing skin.
         </p>

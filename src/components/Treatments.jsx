@@ -71,8 +71,8 @@ export default function Treatments() {
                         </h2>
                     </div>
                     <a
-                        href="#contact"
-                        className="inline-flex text-sm font-semibold text-[#692767] hover:text-[#582157]"
+                        href="https://app.squareup.com/appointments/book/9qze62967coq3v/L0BCN9T6Y4JAQ/start"
+                        target="_blank" className="inline-flex text-sm font-semibold text-[#692767] hover:text-[#582157]"
                     >
                         Book a visit →
                     </a>

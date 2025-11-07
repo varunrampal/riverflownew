@@ -19,8 +19,8 @@ return(
             </p>
             <div className="flex flex-wrap gap-3">
               <a
-                href="#contact"
-                className="bg-[#692767] hover:bg-[#582157] text-white px-6 py-3 rounded-full text-sm font-semibold transition"
+                 href="https://app.squareup.com/appointments/book/9qze62967coq3v/L0BCN9T6Y4JAQ/start"
+               target="_blank" className="bg-[#692767] hover:bg-[#582157] text-white px-6 py-3 rounded-full text-sm font-semibold transition"
               >
                 Book Now
               </a>
