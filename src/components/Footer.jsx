@@ -104,7 +104,7 @@ export default function Footer() {
             </h6>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:skinbyuptown@gmail.com" className="hover:text-[#c3bcb9]">
+                <a href="mailto:info@riverflowlaser.com" className="hover:text-[#c3bcb9]">
                   info@riverflowlaser.com
                 </a>
               </li>
@@ -133,7 +133,7 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-4 py-4 md:py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-[#f0ecec]">
           <div className="text-center md:text-left">
             © {new Date().getFullYear()}{" "}
-            <a href="https://langley.uptownmedspa.ca/" className="underline-offset-2 hover:underline">
+            <a href="https://riverflowlaser.com/" className="underline-offset-2 hover:underline">
              Riverflow Laser & Skin Clinic Inc
             </a>
             . <span className="whitespace-nowrap">All rights reserved.</span>{" "}
@@ -147,7 +147,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-wrap gap-3 justify-center md:justify-end">
             <a
-              href="https://langley.uptownmedspa.ca/privacy-policy/"
+              href="#"
               className="hover:text-white whitespace-nowrap"
             >
               Privacy Policy
