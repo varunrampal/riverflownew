@@ -3,7 +3,7 @@ import laserhairremoval from'../assets/images/services/laser-hair-removal.jpg'
 import microneedling from'../assets/images/services/microneedling.jpg'
 import chemicalpeels from'../assets/images/services/chemicalpeels.jpg'
 import hydrafacial from"../assets/images/services/HydraFacial.jpg"
-import hairservices from'../assets/images/services/hairservices.jpg'
+import hairservices from'../assets/images/services/HairServices.jpg'
 import oxygenofacial from'../assets/images/services/Oxygeneo.jpg'
 import scalp from'../assets/images/services/scalp.webp'
 
