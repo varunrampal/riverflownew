@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import facial from '../assets/images/services/facial.jpg'
 import laserhairremoval from'../assets/images/services/laser-hair-removal.jpg'
 import microneedling from'../assets/images/services/microneedling.jpg'
@@ -12,52 +13,56 @@ export default function Treatments() {
         {
             title: "Laser Hair Removal",
             desc: "If you’re not happy with shaving, tweezing, or waxing to remove unwanted hair, laser hair removal may be an option worth considering. Our lasers help remove hair from the face, leg, chin, back, arm, underarm, bikini line, and more.",
-            image: laserhairremoval
+            image: laserhairremoval,
+            link:'/treatments/laserhairremoval'
+           
         },
         {
             title: "OxyGeneo Facial",
             desc: "Non-surgical shaping and tightening.",
-            image:oxygenofacial
+            image:oxygenofacial,
+            link:'/treatments/oxygenofacial'
         },
         {
             title: "Facials & Peels",
             desc: "Deep cleansing, brightening and acne care.",
-            image:facial
+            image:facial,
+            link:'/treatments/facial'
         },
         {
             title: "Microneedling",
             desc: "Improve skin tone, texture and fine lines.",
-            image: microneedling
+            image: microneedling,
+            link:'/treatments/microneedling'
         },
         {
             title: "Chemical Peels",
             desc: "Removes dead skin cells to reveal smoother, brighter skin..",
-            image:chemicalpeels
+            image:chemicalpeels,
+             link:'/treatments/chemicalpeels'
         },
         {
             title: "HydraFacial",
             desc: "IHydraFacial uses patented Vortex-Fusion® technology to cleanse, extract, and hydrate, leaving your skin radiant and plump.",
-            image:hydrafacial
+            image:hydrafacial,
+            link:'/treatments/hydrafacial'
         },
         {
             title: "Hair Services",
             desc: "Non-surgical shaping and tightening.",
-            image:hairservices
+            image:hairservices,
+             link:'/treatments/hairservices'
         },
              {
             title: "Scalp Therapy",
             desc: "Non-surgical shaping and tightening.",
-            image:scalp
+            image:scalp,
+             link:'/treatments/scalp'
         },
  
     ];
 
-    const gallery = [
-        laserhairremoval,
-        "https://images.unsplash.com/photo-1594744803329-2fe84ee86ea5?w=900&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=900&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1596370740509-3c9d65e657a3?w=900&auto=format&fit=crop",
-    ];
+
     return (
         <section id="treatments" className="py-12 lg:py-16 bg-[#f4f5f7]">
             <div className="max-w-6xl mx-auto px-4">
