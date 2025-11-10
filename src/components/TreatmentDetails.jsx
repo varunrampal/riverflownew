@@ -40,7 +40,8 @@ export default function TreatmentDetails({ treatment }) {
         {treatment.content}
       </p>
       <a
-        href="/contact-us"
+         href="https://app.squareup.com/appointments/book/9qze62967coq3v/L0BCN9T6Y4JAQ/start"
+            target="_blank"
         className="inline-flex items-center rounded-md bg-[#692767] px-6 py-2 text-sm font-semibold text-white hover:bg-[#531f58] transition"
       >
         Book Now
