@@ -4,6 +4,11 @@ import Home from './pages/HomePage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import FacebookMessenger from './components/FacebookMessenger.jsx';
 import TreatmentDetailsPage from "./pages/TreatmentDetailsPage";
+import AllTreatmentsPage from './pages/AllTreatmentsPage.jsx';
+import TeamPage from './pages/TeamPage.jsx';
+import FAQPage from './pages/FAQPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,10 +17,15 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-      </Routes>
-      <Routes>
-       <Route path="/treatments/:slug" element={<TreatmentDetailsPage />} />
+         <Route path="/treatments" element={<AllTreatmentsPage />} />
+         <Route path="/treatments/:slug" element={<TreatmentDetailsPage />} />
+         <Route path="/treatments/:slug" element={<TreatmentDetailsPage />} />
+         <Route path="/team" element={<TeamPage />} />
+           <Route path="/faq" element={<FAQPage />} />
+           <Route path="/contact" element={<ContactPage />} />
+             <Route path="/about" element={<AboutPage />} />
         </Routes>
+       
     </BrowserRouter>
     <FacebookMessenger/>
     </>

@@ -38,22 +38,29 @@ export default function Header() {
           </button>
 
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <a href="#hero" className="hover:text-[#692767] font-bold text-[#692767]">
-              Home
-            </a>
-            <a href="#treatments" className="hover:text-[#692767] font-bold text-[#692767]">
-              Treatments
-            </a>
-            <a href="#about" className="hover:text-[#692767] text-[#692767] font-bold">
-              About
-            </a>
-            <a href="#team" className="hover:text-[#692767] text-[#692767] font-bold">
+          
+           <Link to="/" className="hover:text-[#692767] font-bold text-[#692767]">
+          Home
+          </Link>
+            <Link to="/treatments" className="hover:text-[#692767] font-bold text-[#692767]">
+          Treatments
+          </Link>
+          <Link to="/about" className="hover:text-[#692767] font-bold text-[#692767]">
+          About
+          </Link>
+            {/* <a href="#team" className="hover:text-[#692767] text-[#692767] font-bold">
               Our Team
-            </a>
-              <a href="#faqs" className="hover:text-[#692767] text-[#692767] font-bold">
+            </a> */}
+                <Link to="/team"  className="hover:text-[#692767] text-[#692767] font-bold" onClick={() => setOpen(false)}>
+            Team
+          </Link>
+              {/* <a href="/faq" className="hover:text-[#692767] text-[#692767] font-bold">
               FAQS
-            </a>
-            <a href="#contact" className="hover:text-[#692767] text-[#692767] font-bold">
+            </a> */}
+             <Link to="/faq" className="hover:text-[#692767] font-bold text-[#692767]">
+          FAQS
+          </Link>
+            <a href="/contact" className="hover:text-[#692767] text-[#692767] font-bold">
               Contact
             </a>
           </nav>
@@ -68,41 +75,54 @@ export default function Header() {
         {/* mobile menu */}
         {open ? (
           <div className="md:hidden bg-white border-t border-slate-200 px-4 py-3 space-y-2 text-sm">
-            <a
-              href="#hero"
+            {/* <a
+              href="/"
               onClick={() => setOpen(false)}
               className="block py-1 text-[#692767] font-bold"
             >
               Home
-            </a>
-            <a
+            </a> */}
+
+              <Link to="/"  className="block py-1 text-[#692767] font-bold"  onClick={() => setOpen(false)}>
+          Home
+          </Link>
+            {/* <a
               href="#treatments"
               onClick={() => setOpen(false)}
               className="block py-1 text-[#692767] font-bold"
             >
               Treatments
-            </a>
-            <a
-              href="#about"
-              onClick={() => setOpen(false)}
-              className="block py-1 text-[#692767] font-bold"
-            >
-              About
-            </a>
-            <a
+            </a> */}
+            <Link to="/treatments"  className="block py-1 text-[#692767] font-bold"  onClick={() => setOpen(false)}>
+          Treatments
+          </Link>
+             <Link to="/about"  className="block py-1 text-[#692767] font-bold"  onClick={() => setOpen(false)}>
+            About
+          </Link>
+    
+            {/* <a
               href="#team"
               onClick={() => setOpen(false)}
               className="block py-1 text-[#692767] font-bold"
             >
               Our Team
-            </a>
-            <a
+            </a> */}
+          <Link to="/team"  className="block py-1 text-[#692767] font-bold"  onClick={() => setOpen(false)}>
+            Team
+          </Link>
+            <Link to="/faq"  className="block py-1 text-[#692767] font-bold"  onClick={() => setOpen(false)}>
+            FAQS
+          </Link>
+           <Link to="/contact"  className="block py-1 text-[#692767] font-bold"  onClick={() => setOpen(false)}>
+            Contact
+          </Link>
+            {/* <a
               href="#contact"
               onClick={() => setOpen(false)}
               className="block py-1 text-[#692767] font-bold"
             >
               Contact
-            </a>
+            </a> */}
           </div>
         ) : null}
       </header>
