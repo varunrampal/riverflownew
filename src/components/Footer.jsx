@@ -1,4 +1,6 @@
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/images/logo.png'
+
 export default function Footer() {
   return (
     <footer className="bg-[#692767] text-white pt-12 lg:pt-16">
@@ -65,34 +67,26 @@ export default function Footer() {
             </h6>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-[#c3bcb9]">
+                <a href="" className="hover:text-[#c3bcb9]">
                   Home
                 </a>
+
               </li>
               <li>
-                <a href="#" className="hover:text-[#c3bcb9]">
-                  About Us
-                </a>
+               
+                <Link to='/about' className="hover:text-[#c3bcb9]">About</Link>
               </li>
               <li>
-                <a href="#" className="hover:text-[#c3bcb9]">
-                 Treatments
-                </a>
+            <Link to='/treatments' className="hover:text-[#c3bcb9]">Treatments</Link>
               </li>
               <li>
-                <a href="#" className="hover:text-[#c3bcb9]">
-                Oue Team
-                </a>
+                 <Link to='/team' className="hover:text-[#c3bcb9]">Team</Link>
               </li>
               <li>
-                <a href="#" className="hover:text-[#c3bcb9]">
-                  Contact Us
-                </a>
+                 <Link to='/contact' className="hover:text-[#c3bcb9]">Contact</Link>
               </li>
               <li>
-                <a href="#" className="hover:text-[#c3bcb9]">
-                 FAQS
-                </a>
+                  <Link to='/faq' className="hover:text-[#c3bcb9]">FAQS</Link>
               </li>
             </ul>
           </div>
