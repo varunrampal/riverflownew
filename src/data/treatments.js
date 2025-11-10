@@ -20,7 +20,7 @@ Perfect before events or as monthly maintenance.
     `,
   },
   laserhairremoval: {
-    id: "laser-hair-removal",
+    id: "laserhairremoval",
     title: "Laser Hair Removal",
     image:
       laserhairremoval,
