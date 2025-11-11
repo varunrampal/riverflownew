@@ -25,9 +25,9 @@ function App() {
            <Route path="/contact" element={<ContactPage />} />
              <Route path="/about" element={<AboutPage />} />
         </Routes>
-       
+        {/* <FacebookMessenger/> */}
     </BrowserRouter>
-    <FacebookMessenger/>
+   
     </>
   )
 }

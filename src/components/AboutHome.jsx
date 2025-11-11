@@ -1,4 +1,4 @@
-import img from '../assets/images/services/pexels-shvetsa.jpg'
+import img from '../assets/images/services/aboutimage.jpg'
 export default function AboutHome() {
   return (
     <section id="about" className="py-12 lg:py-16 bg-white">
@@ -25,9 +25,15 @@ export default function AboutHome() {
             <li>• Convenient Abbotsford location</li>
           </ul>
         </div>
-        <div >
-          <img className='h-full w-full object-cover' src={img} alt="" />
-        </div>
+        <div className="flex justify-center lg:justify-end">
+      <div className="w-90 sm:w-170 lg:w-70 rounded-3xl overflow-hidden shadow-md bg-slate-100">
+        <img
+          src={img}
+          alt="RiverFlow Laser"
+          className="w-full h-30 object-cover"
+        />
+      </div>
+    </div>
       </div>
     </section>
   );
